@@ -51,7 +51,9 @@ JAVA_OPTS=%JAVA_OPTS% -javaagent://10.100.96.42/Repository/org/springframework/s
 </build>
 ```
 ### 3.配置（application.yml）
+```
 spring.devtools.restart.additional-paths: src/main/java
 spring.devtools.restart.enabled: true
 spring.devtools.restart.exclude: WEB-INF/**
 spring.thymeleaf.cache: false
+```
