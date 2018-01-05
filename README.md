@@ -24,10 +24,5 @@ java -javaagent://10.100.96.42/Repository\org\springframework\springloaded\1.2.8
 JAVA_OPTS=%JAVA_OPTS% -javaagent://10.100.96.42/Repository\org\springframework\springloaded\1.2.8.RELEASE/springloaded-1.2.8.RELEASE.jar -noverify
 ```
 ### 4.Hotspot支持方式
-类型      | 属|性  |方|法    |构造|函数
----------|--:|:---|----:|:---|----:|:--
---------|新增|修改|新增|修改|新增|修改
---------|:---:|:---:|:---:|:---:|:---:|---
-新增普通类|√  |√   |√  |√  | √ | √
-已有普通类|ⅹ  |ⅹ     |√  |√  |ⅹ      |ⅹ
+<img url="_img/spring-loaded.png" weight=541 heigh=209/>
 
