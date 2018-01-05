@@ -1,11 +1,11 @@
 # css-spring-loaded
-\u5173\u4e8e\u4ee3\u7801\u70ed\u52a0\u8f7d\u6280\u672f:springloaded\u4e0espring-boot-devtools
+关于代码热加载技术:springloaded与spring-boot-devtools
 
-## \u4e00.Spring-Loaded
-1.\u5de5\u4f5c\u539f\u7406
+## 一.Spring-Loaded
+1.工作原理
 ------------
 
-2. Maven\u914d\u7f6e
+2. Maven配置
 ------------
 ```xml
 <dependency>
@@ -14,18 +14,18 @@
     <version>1.2.8.RELEASE</version>
 </dependency>
 ```
-3.\u90e8\u7f72\u65b9\u5f0f
+3.部署方式
 ------------
 ```
 
 ```
-4.Hotspot\u652f\u6301\u65b9\u5f0f
+4.Hotspot支持方式
 ----------------------------
 
-\u7c7b\u578b      | \u5c5e\u6027       |\u65b9\u6cd5          |\u6784\u9020\u51fd\u6570
+类型      | 属性       |方法          |构造函数
 --------|-------|-------|------
---------|\u65b0\u589e|\u4fee\u6539|\u65b0\u589e|\u4fee\u6539|\u65b0\u589e|\u4fee\u6539
+--------|新增|修改|新增|修改|新增|修改
 --------|---|---|---|---|---|---
-\u65b0\u589e\u666e\u901a\u7c7b|\u221a  |\u221a   |\u221a  |\u221a  | \u221a | \u221a
-\u5df2\u6709\u666e\u901a\u7c7b|\u2179  |\u2179     |\u221a  |\u221a  |\u2179      |\u2179
+新增普通类|√  |√   |√  |√  | √ | √
+已有普通类|ⅹ  |ⅹ     |√  |√  |ⅹ      |ⅹ
 
