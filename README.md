@@ -7,8 +7,6 @@
 gg
 ```
 ### 2.Maven配置
-----------------------------
-
 ```xml
 <dependency>
     <groupId>org.springframework</groupId>
@@ -16,9 +14,7 @@ gg
     <version>1.2.8.RELEASE</version>
 </dependency>
 ```
-
 ### 3.部署方式
-----------------------------
 ```
 1）Spring-Boot部署方式
 java -javaagent://10.100.96.42/Repository\org\springframework\springloaded\1.2.8.RELEASE/springloaded-1.2.8.RELEASE.jar -noverify
@@ -26,8 +22,6 @@ java -javaagent://10.100.96.42/Repository\org\springframework\springloaded\1.2.8
 JAVA_OPTS=%JAVA_OPTS% -javaagent://10.100.96.42/Repository\org\springframework\springloaded\1.2.8.RELEASE/springloaded-1.2.8.RELEASE.jar -noverify
 ```
 ### 4.Hotspot支持方式
-----------------------------
-
 类型      | 属|性  |方|法    |构造|函数
 --------|----|---|----|---|----|--
 --------|新增|修改|新增|修改|新增|修改
