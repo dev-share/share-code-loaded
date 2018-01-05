@@ -1,0 +1,9 @@
+#####################################################################################
+server.port: 8082
+#####################################################################################
+logging.config: classpath:logback.xml
+#####################################################################################
+#spring.devtools.restart.additional-paths: src/main/java
+#spring.devtools.restart.enabled: true
+#spring.devtools.restart.exclude: WEB-INF/**
+#spring.thymeleaf.cache: false
