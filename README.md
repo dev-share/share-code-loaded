@@ -24,5 +24,5 @@ java -javaagent://10.100.96.42/Repository\org\springframework\springloaded\1.2.8
 JAVA_OPTS=%JAVA_OPTS% -javaagent://10.100.96.42/Repository\org\springframework\springloaded\1.2.8.RELEASE/springloaded-1.2.8.RELEASE.jar -noverify
 ```
 ### 4.Hotspot支持方式
-<img url="_img/spring-loaded.png" weight=541 heigh=209/>
+<img src="_img/spring-loaded.png" width="541" height="209"/>
 
