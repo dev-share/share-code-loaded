@@ -2,9 +2,7 @@
 关于代码热加载技术:springloaded与spring-boot-devtools
 ## 一.Spring-Loaded
 ### 1.工作原理
-```
 基于jdk代理方式，实现JVM的Instrumentation进行premain或agentmain代理加载以及TransformerManager的transform方法进行翻译，对增加的class进行listener，对已有class文件内容变化lastModified进行实时Watcher,从而达到JVM的热加载
-```
 ### 2.Maven配置
 ```xml
 <dependency>
@@ -27,9 +25,7 @@ JAVA_OPTS=%JAVA_OPTS% -javaagent://10.100.90.42/Share/Repository/org/springframe
 
 ## 二.spring-boot-devtools
 ### 1.工作原理
-```
 基于服务重启的JVM的jdk代理加载机制，实现class文件或目录进行动态感知监听，从而进行服务重启加载，可以过滤文件或目录是否重新加载到JVM中，从而达到热加载效果
-```
 ### 2.Maven配置
 ```xml
 <dependency>
