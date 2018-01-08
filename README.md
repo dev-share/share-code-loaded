@@ -1,5 +1,5 @@
 # css-code-loaded
-关于代码热加载技术:springloaded与spring-boot-devtools
+关于代码热加载技术: spring-loaded与spring-boot-devtools
 ## 一.Spring-Loaded
 ### 1.工作原理
 基于jdk代理方式，实现JVM的Instrumentation进行premain或agentmain代理加载以及TransformerManager的transform方法进行翻译，对增加的class进行listener，对已有class文件内容变化lastModified进行实时Watcher,从而达到JVM的热加载
