@@ -23,9 +23,8 @@ java -javaagent://10.100.90.42/Share/Repository/org/springframework/springloaded
 JAVA_OPTS=%JAVA_OPTS% -javaagent://10.100.90.42/Share/Repository/org/springframework/springloaded/1.2.8.RELEASE/springloaded-1.2.8.RELEASE.jar -noverify
 ```
 ### 4.Hotspot支持方式
-<img src="_img/spring-loaded.png" width="541" height="209"/>
-
 ![热加载支持情况](_img/spring-loaded.png)
+
 ## 二.spring-boot-devtools
 ### 1.工作原理
 ```
