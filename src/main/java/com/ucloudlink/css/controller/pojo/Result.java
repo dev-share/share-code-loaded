@@ -5,8 +5,8 @@ import java.util.Date;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.serializer.SerializerFeature;
 /**
- * 描述: 返回结果
- * 时间: 2018年1月3日 上午11:47:59
+ * 描述: 结果封装
+ * 时间: 2018年1月9日 下午5:45:49
  * @author yi.zhang
  * @since 1.0
  * JDK版本:1.8
