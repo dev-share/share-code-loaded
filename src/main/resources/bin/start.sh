@@ -30,11 +30,11 @@ if [ -f $log ] ; then
 	rm -rf $pid
 fi
 
-if [ -d ${base_path}/logs ] ; then
+if [ ! -d ${base_path}/logs ] ; then
 	mkdir -p ${base_path}/logs
 fi
 
-if [ -d ${base_path}/data ] ; then
+if [ ! -d ${base_path}/data ] ; then
 	mkdir -p ${base_path}/data
 fi
 
