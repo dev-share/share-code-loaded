@@ -1,4 +1,4 @@
-package com.ucloudlink.css.controller;
+package com.devzy.share.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
@@ -11,12 +11,12 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.alibaba.fastjson.JSONObject;
-import com.ucloudlink.css.config.BeanTest;
-import com.ucloudlink.css.config.ComponentTest;
-import com.ucloudlink.css.controller.pojo.ATest;
-import com.ucloudlink.css.controller.pojo.Result;
-import com.ucloudlink.css.controller.pojo.Test;
-import com.ucloudlink.css.controller.pojo.TestA;
+import com.devzy.share.config.BeanTest;
+import com.devzy.share.config.ComponentTest;
+import com.devzy.share.controller.pojo.ATest;
+import com.devzy.share.controller.pojo.Result;
+import com.devzy.share.controller.pojo.Test;
+import com.devzy.share.controller.pojo.TestA;
 
 @RestController
 @RequestMapping("/index")

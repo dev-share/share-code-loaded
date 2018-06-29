@@ -1,4 +1,4 @@
-package com.ucloudlink.css.config;
+package com.devzy.share.config;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.context.ApplicationContext;

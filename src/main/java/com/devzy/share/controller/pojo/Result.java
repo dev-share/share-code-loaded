@@ -1,4 +1,4 @@
-package com.ucloudlink.css.controller.pojo;
+package com.devzy.share.controller.pojo;
 
 import java.util.Date;
 

@@ -5,7 +5,7 @@ path="$(cd "${path}";pwd)"
 base=${path}/..
 base_path="$(cd "${path}";pwd)"
 
-app_name=css-code-loaded
+app_name=share-code-loaded
 conf=${base_path}/config/application.properties
 log=${base_path}/logs/${app_name}.log
 pid=${base_path}/data/${app_name}.pid
@@ -30,11 +30,11 @@ if [ -f $log ] ; then
 	rm -rf $pid
 fi
 
-if [ ! -d ${base_path}/logs ] ; then
+if [ -d ${base_path}/logs ] ; then
 	mkdir -p ${base_path}/logs
 fi
 
-if [ ! -d ${base_path}/data ] ; then
+if [ -d ${base_path}/data ] ; then
 	mkdir -p ${base_path}/data
 fi
 
@@ -69,7 +69,7 @@ then
 	done
 	
 	echo ${app_name} Starting ...
-	# $JAVA $JAVA_OPTS -classpath=.:$CLASSPATH -cp $app:"${base_path}"/*.jar com.ucloudlink.css.Application -spring.config.location=$conf >$log 2>&1 &
+	# $JAVA $JAVA_OPTS -classpath=.:$CLASSPATH -cp $app:"${base_path}"/*.jar com.devzy.share.Application -spring.config.location=$conf >$log 2>&1 &
 	$JAVA -jar $app -spring.config.location=$conf >$log 2>&1 &
 	echo $! > $pid
 	

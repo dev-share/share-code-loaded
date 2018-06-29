@@ -1,4 +1,4 @@
-package com.ucloudlink.css;
+package com.devzy.share;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

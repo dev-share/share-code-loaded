@@ -1,4 +1,4 @@
-package com.ucloudlink.css.controller.pojo;
+package com.devzy.share.controller.pojo;
 
 public class ATest {
 	private int id;

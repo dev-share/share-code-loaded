@@ -5,7 +5,7 @@ path="$(cd "${path}";pwd)"
 base=${path}/..
 base_path="$(cd "${path}";pwd)"
 
-app_name=css-code-loaded
+app_name=share-code-loaded
 conf=${base_path}/config/application.properties
 log=${base_path}/logs/${app_name}.log
 pid=${base_path}/data/${app_name}.pid
